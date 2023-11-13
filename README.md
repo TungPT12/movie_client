@@ -1,4 +1,4 @@
-# movie_fe
+# movie_client
 
 Introduction
 * Project focus watch movie trailer.

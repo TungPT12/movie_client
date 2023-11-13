@@ -16,6 +16,7 @@ Install
 * Clone project
 * Clone back end project (https://github.com/TungPT12/movie_be.git).
 * Run back end (https://github.com/TungPT12/movie_be/blob/main/README.md).
+* Go to configs/axios.js comment line 5 and uncomment line 4.
 * Open terminal in root folder project and type 'npm i'.
 * Run project with command 'npm start'.
 

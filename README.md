@@ -5,12 +5,17 @@ Introduction
 * Project no responsive.
 * The project can watch trailer movie, search movie and filter movie.
 
-# Build Withs
+
+### Link live
+
+* https://movie-trailer-client.netlify.app/
+
+### Build Withs
 
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
-# Getting Started
+### Getting Started
 
 Before you continue, ensure you meet the following requirements:
 
@@ -27,7 +32,7 @@ Install
 * Open terminal in root folder project and type 'npm i'.
 * Run project with command 'npm start'.
 
-Contact me:
+### Contact me:
 
 * Phone number: 0988486443.
 * Email: boypham12042000@gmail.com.

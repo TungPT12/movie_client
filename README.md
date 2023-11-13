@@ -5,10 +5,9 @@ Introduction
 * Project no responsive.
 * The project can watch trailer movie, search movie and filter movie.
 
-# Getting Started
+# Build Withs
 
-* https://react.dev/
-
+* [![React][React.js]][React-url]
 
 
 # Getting Started

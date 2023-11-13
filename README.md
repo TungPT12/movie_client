@@ -5,6 +5,14 @@ Introduction
 * Project no responsive.
 * The project can watch trailer movie, search movie and filter movie.
 
+# Getting Started
+
+* https://react.dev/
+
+
+
+# Getting Started
+
 Before you continue, ensure you meet the following requirements:
 
 * You have installed the latest version of nodejs (https://nodejs.org/en/download/). 

@@ -22,7 +22,10 @@ function Navbar() {
 
     return (
         <div className={`${styles['navbar']} px-3 py-2 align-items-center position-fixed w-100 d-flex justify-content-between ${offset >= 100 ? styles['bg-black'] : ''}`}>
-            <Link to='/' className={`${styles['logo']}`}><h2 className={`${styles['logo']}`}>Movie App</h2></Link>
+            <div className='d-flex align-items-center justify-content-between'>
+                <Link to='/' className={`${styles['logo']}`}><h2 className={`${styles['logo']}`}>Movie App</h2></Link>
+                <Link to='/book-ticket' className={`${styles['book-ticket']} p-2 ms-5 text-decoration-none`}><p className={`${styles['book-ticket-text']} mb-0 `}>Buy Ticket</p></Link>
+            </div>
             <Link to='/search'>
                 <i className={`${styles['search-icon']}`}>
                     <SearchIcon />

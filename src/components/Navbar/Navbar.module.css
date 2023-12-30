@@ -20,3 +20,21 @@
     display: block;
     width: 1.7rem;
 }
+
+/* .book-ticket {
+    background-color: #00000042;
+    border-radius: 2px;
+} */
+.book-ticket:hover .book-ticket-text {
+    color: #828282;
+}
+
+.book-ticket:hover {
+    background-color: #00000042;
+    border-radius: 2px;
+}
+
+.book-ticket-text {
+    color: #fc0101;
+    font-weight: 500;
+}

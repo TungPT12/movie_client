@@ -32,8 +32,39 @@ const searchMoviesAPI = async (keyword, page, filterParams) => {
     }
 }
 
+const getMoviesShowingApi = async () => {
+    try {
+        const response = await axiosInstance.get('/movies-showing')
+        return response;
+    } catch (error) {
+        return error.response;
+    }
+}
+
+const getMoviesShowingBydIdApi = async (id) => {
+    try {
+        const response = await axiosInstance.get(`/movies-showing/${id}`)
+        return response;
+    } catch (error) {
+        return error.response;
+    }
+}
+
+const createOrder = async (ticket) => {
+    try {
+        const response = await axiosInstance.post(`/buy-ticket`, ticket)
+        return response;
+    } catch (error) {
+        return error.response;
+    }
+}
+
+
 export {
     getMoviesAPI,
     getMovieVideoAPI,
-    searchMoviesAPI
+    searchMoviesAPI,
+    getMoviesShowingApi,
+    getMoviesShowingBydIdApi,
+    createOrder
 }

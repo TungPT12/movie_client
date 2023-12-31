@@ -1,0 +1,137 @@
+.movie-info {
+    /* padding: 1px 12rem; */
+}
+
+.img {
+    flex: 1
+}
+
+.right-movie-info {
+    flex: 2
+}
+
+.movie-detail {
+    padding: 1px 12rem;
+}
+
+.date-showing {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.date {
+    background-color: #fff;
+    color: #000;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid #e69a9a;
+    border-radius: 4px;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.date:hover {
+    cursor: pointer;
+}
+
+.time {
+    background-color: #fff;
+    color: #000;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid #e69a9a;
+    border-radius: 4px;
+    padding: 1px 1px;
+    text-align: center;
+}
+
+.time-showing {
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.screen {
+    background-image: url('https://www.lottecinemavn.com/LCHS/Image/Bg/bg_screen.gif');
+}
+
+.row-chair {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.alpha {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.alphas {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.movie-name {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.price-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.form-book {
+    background: #fff;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.input {
+    padding: 4px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 1rem;
+    border: 1px solid #d5d5d5;
+}
+
+.input:last-child {
+    margin-bottom: 0;
+}
+
+.btn-book-ticket {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 1px solid #dcd5d5;
+    background: #d42929;
+    border-radius: 23px;
+    padding: 8px;
+    font-weight: 700;
+    color: #ffc2c2;
+}
+
+.navbar {
+    height: fit-content;
+    transition: background 0.5s linear;
+    z-index: 9999;
+    font-weight: 700;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.logo {
+    color: #fc0101;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.search-icon {
+    display: block;
+    width: 1.7rem;
+}

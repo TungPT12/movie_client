@@ -20,3 +20,11 @@ code {
 a {
 	text-decoration: none;
 }
+
+.f-1 {
+	flex: 1;
+}
+
+.f-3 {
+	flex: 3;
+}

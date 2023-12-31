@@ -1,0 +1,90 @@
+.navbar {
+    height: fit-content;
+    transition: background 0.5s linear;
+    z-index: 9999;
+    font-weight: 700;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.logo {
+    color: #fc0101;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.search-icon {
+    display: block;
+    width: 1.7rem;
+}
+
+/* .book-ticket {
+    background-color: #00000042;
+    border-radius: 2px;
+} */
+.book-ticket:hover .book-ticket-text {
+    color: #828282;
+}
+
+.book-ticket:hover {
+    background-color: #00000042;
+    border-radius: 2px;
+}
+
+.book-ticket-text {
+    color: #fc0101;
+    font-weight: 500;
+}
+
+.movie-showing {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.name {
+    flex: 3;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.wrap-item {
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.vote {
+    flex: 1;
+    border-left: 1px solid #c3c3c3
+}
+
+.item {
+    height: fit-content;
+}
+
+.wrapper-info {
+    border: 1px solid #c3c3c3;
+}
+
+.icon-star {
+    color: yellow;
+}
+
+.link-book-ticket {
+    color: #fff;
+    background: #000;
+    color: #fff;
+    background: #000;
+    border-radius: 18px;
+    padding: 4px;
+}
+
+.link-book-ticket:hover {
+    opacity: .6;
+}

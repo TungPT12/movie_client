@@ -19,8 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Browse />} />
         <Route path="/search" element={<Search />} />
-        <Route path="/movie-showing" element={<MovieShowing />} />
-        <Route path="/movie-showing/:id" element={<BookTicket />} />
+        {/* <Route path="/movie-showing" element={<MovieShowing />} /> */}
+        {/* <Route path="/movie-showing/:id" element={<BookTicket />} /> */}
       </Routes>
     </BrowserRouter>
   );
